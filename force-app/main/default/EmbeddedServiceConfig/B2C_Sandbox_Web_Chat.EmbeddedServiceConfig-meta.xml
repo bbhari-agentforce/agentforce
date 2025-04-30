@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmbeddedServiceConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <areGuestUsersAllowed>false</areGuestUsersAllowed>
+    <branding>EmbeddedServiceConfig_BrandingSet_196815b1c79</branding>
+    <deploymentFeature>EmbeddedMessaging</deploymentFeature>
+    <deploymentType>Web</deploymentType>
+    <embeddedServiceCustomComponents>
+        <componentBundleType>LightningComponentBundle</componentBundleType>
+        <customComponent>customHeaderSmartShopper</customComponent>
+        <customComponentType>MIAW_Header</customComponentType>
+    </embeddedServiceCustomComponents>
+    <embeddedServiceMessagingChannel>
+        <isEnabled>true</isEnabled>
+        <messagingChannel>B2C_Storefront</messagingChannel>
+        <shouldShowDeliveryReceipts>false</shouldShowDeliveryReceipts>
+        <shouldShowReadReceipts>false</shouldShowReadReceipts>
+        <shouldShowTypingIndicators>false</shouldShowTypingIndicators>
+    </embeddedServiceMessagingChannel>
+    <isEnabled>true</isEnabled>
+    <masterLabel>B2C Sandbox Web Chat</masterLabel>
+    <shouldHideAuthDialog>false</shouldHideAuthDialog>
+    <site>ESW_B2C_Sandbox_Web_Chat_17459262920681</site>
+</EmbeddedServiceConfig>

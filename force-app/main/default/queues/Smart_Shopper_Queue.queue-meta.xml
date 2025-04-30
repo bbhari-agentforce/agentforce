@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Smart Shopper Queue</name>
+    <queueMembers>
+        <users>
+            <user>smart_shopper@00dns00000ibnim.ext</user>
+            <user>smart_shopper_administrator@00dns00000ibnim.ext</user>
+            <user>epic.b4caf1e6ed5d@orgfarm.com</user>
+        </users>
+    </queueMembers>
+    <queueRoutingConfig>Smart_Shopper_Route</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>MessagingSession</sobjectType>
+    </queueSobject>
+</Queue>

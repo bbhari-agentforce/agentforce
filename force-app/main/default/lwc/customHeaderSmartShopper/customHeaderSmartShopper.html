@@ -1,0 +1,21 @@
+<template>
+    <!-- Header logo -->
+    <!-- Replace this with your logo file. -->
+    <img src="https://a.sfdcstatic.com/shared/chat/chat-agent-image-2x.png" alt="Smart Shopper"/>
+
+    <!-- Header text -->
+    <h3>
+        Smart Shopper
+        <p>Powered by Agentic AI</p>
+    </h3>
+
+    <!-- Minimize button -->
+    <button class="headerButton minimizeButton" title="Minimize" onclick={onMinimizeButtonClick}>
+        <lightning-icon icon-name="utility:chevrondown" variant="inverse" size="x-small"></lightning-icon>
+    </button>
+
+    <!-- Close button -->
+    <button class="headerButton closeButton" title="End the Chat" onclick={onCloseButtonClick}>
+        <lightning-icon icon-name="utility:close" variant="inverse" size="x-small"></lightning-icon>
+    </button>
+</template>
