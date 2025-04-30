@@ -297,14 +297,6 @@ public class GetTokenThroughSCAPI {
                         formData += '&hint=guest' +
                           '&login_id=guest' + 
                           '&grant_type=session_bridge';
-                    } else {
-                        formData += '&grant_type=client_credentials' +
-                                    '&hint=sb-user';
-                        String username = 'ajaykrishna.alangarumuralikrishna@merkle.com';
-                    	String password = 'India@333';
-                     	String authHeaderValue = 'Basic ' + EncodingUtil.base64Encode(Blob.valueOf(username + ':' + password));
-                     	req.setHeader('Authorization', authHeaderValue);
-                                    
                     }
                     
                     req.setEndpoint(endpoint);
